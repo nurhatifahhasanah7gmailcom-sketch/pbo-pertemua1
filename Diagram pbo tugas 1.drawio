@@ -1,0 +1,72 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Halaman-1" id="1gMYrgldSWDSuQkC2CLM">
+    <mxGraphModel dx="1042" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6-pajDjxKhBkCekr23AR-29" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Nasabah" vertex="1">
+          <mxGeometry height="170" width="160" x="30" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-30" parent="6-pajDjxKhBkCekr23AR-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nama : String&lt;div&gt;- idNasabah : String&lt;/div&gt;&lt;div&gt;- alamat : String&lt;/div&gt;&lt;div&gt;- saldoTerkumpul : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-31" parent="6-pajDjxKhBkCekr23AR-29" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-32" parent="6-pajDjxKhBkCekr23AR-29" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ tambahSaldo(jumlah : double) : void&lt;div&gt;+ tampilkanProfil() : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="160" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-33" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Sampah" vertex="1">
+          <mxGeometry height="170" width="160" x="550" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-34" parent="6-pajDjxKhBkCekr23AR-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- namaJenis&amp;nbsp; : String&lt;div&gt;- satuan : String&lt;/div&gt;&lt;div&gt;- hargaPersatuan : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-35" parent="6-pajDjxKhBkCekr23AR-33" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-36" parent="6-pajDjxKhBkCekr23AR-33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ updateHarga(hargaBaru&amp;nbsp; :&lt;div&gt;double) : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="160" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-37" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Transaksi" vertex="1">
+          <mxGeometry height="154" width="170" x="280" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-38" parent="6-pajDjxKhBkCekr23AR-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- tanggal : String&lt;div&gt;- idTransaksi : String&lt;/div&gt;&lt;div&gt;- berat : double&lt;/div&gt;&lt;div&gt;- totalNominal : double&lt;/div&gt;&lt;div&gt;- nasabah : Nasabah&lt;/div&gt;&lt;div&gt;- sampah : Sampah&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-39" parent="6-pajDjxKhBkCekr23AR-37" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-40" parent="6-pajDjxKhBkCekr23AR-37" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ hitungTotal() : double" vertex="1">
+          <mxGeometry height="26" width="170" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-54" edge="1" parent="1" source="6-pajDjxKhBkCekr23AR-36" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.807;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="6-pajDjxKhBkCekr23AR-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-63" connectable="0" parent="6-pajDjxKhBkCekr23AR-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="*" vertex="1">
+          <mxGeometry relative="1" x="0.8701" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-64" connectable="0" parent="6-pajDjxKhBkCekr23AR-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.89" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-59" edge="1" parent="1" source="6-pajDjxKhBkCekr23AR-32" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;endFill=0;" target="6-pajDjxKhBkCekr23AR-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-60" connectable="0" parent="6-pajDjxKhBkCekr23AR-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="*" vertex="1">
+          <mxGeometry relative="1" x="0.8744" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6-pajDjxKhBkCekr23AR-65" connectable="0" parent="6-pajDjxKhBkCekr23AR-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8922" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
